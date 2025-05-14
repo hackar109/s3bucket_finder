@@ -4,10 +4,13 @@ A simple Python tool to find publicly accessible AWS S3 buckets based on a domai
 
 ## 🚀 Features
 
-- Finds open and accessible S3 buckets
-- Generates common bucket naming patterns
-- Supports multiple AWS regions
-- CLI interface with banner
+- **Keyword/Domain Based Search**: Scan for S3 buckets based on a given domain or keyword.
+- **Bucket Name Pattern Generation**: Generates common naming patterns like `keyword-bucket`, `keyword-files`, `keyword-assets`, etc.
+- **Multi-region Support**: Automatically checks for common regions such as `us-east-1`, `us-west-1`, `ap-south-1`.
+- **Error Handling**: Proper handling of HTTP codes to determine if buckets are publicly accessible or not.
+- **CLI Interface**: Simple command-line interface for easy scanning.
+- **Export Results**: Future feature to export scan results to a file.
+
 
 ## 📦 Usage
 
