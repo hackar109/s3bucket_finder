@@ -31,5 +31,5 @@ git add .
 git commit -m "Initial commit: S3 Bucket Finder tool"
 git push -u origin main
 
-Agar chahe toh requirements.txt bhi bana ke add kar sakta hai:
+
 
